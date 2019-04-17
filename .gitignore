@@ -4,4 +4,8 @@
 !/**/
 !*.*
 
+# Ignore example generated project
 7_packages_crates_modules/my-project
+
+# Ignore VS code file
+rust_tutorial.code-workspace
