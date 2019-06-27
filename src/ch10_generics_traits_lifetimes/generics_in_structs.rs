@@ -1,5 +1,4 @@
 // Only accepts a single type T for both values
-#[allow(dead_code)]
 struct Point<T> {
     x: T,
     y: T,
@@ -22,13 +21,12 @@ impl Point<f32> {
 // ---------------------
 
 // Supports different types for x and y values
-#[allow(dead_code)]
 struct MixedPoint<T, U> {
     x: T,
     y: U
 }
 
-// Somewhat hard to read, but creates a 3rd mixed point by combining values from 2 MixedPoints 
+// Somewhat hard to read, but creates a 3rd mixed point by combining values from 2 MixedPoints
 impl<T, U> MixedPoint<T, U> {
     fn mixup<V, W>(self, other: MixedPoint<V, W>) -> MixedPoint <T, W> {
         MixedPoint {
@@ -48,9 +46,9 @@ pub fn main() {
 
     // let wont_work = Point { x: 5, y: 4.0 }; // won't work because of mixed types
 
-    let integer_and_float = MixedPoint { x: 5, y: 10 };
-    let integer_and_float = MixedPoint { x: 1.0, y: 2.0 };
-    let integer_and_float = MixedPoint { x: 5, y: 4.0 };
+    let _integer_and_float = MixedPoint { x: 5, y: 10 };
+    let _integer_and_float = MixedPoint { x: 1.0, y: 2.0 };
+    let _integer_and_float = MixedPoint { x: 5, y: 4.0 };
 
     let p1 = MixedPoint { x: 5, y: 10.4 };
     let p2 = MixedPoint { x: "Hello", y: 'c' };
