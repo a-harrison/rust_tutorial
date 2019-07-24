@@ -1,4 +1,5 @@
-pub fn main() {
+#![allow(dead_code)]
+fn main() {
     let x = 4;
     let equal_to_x = |z| z == x;
 
