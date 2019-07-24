@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-fn main() {
+pub fn main() {
     // 1. Basic
     let mut scores = HashMap::new();
 
