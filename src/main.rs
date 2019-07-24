@@ -1,3 +1,5 @@
+mod ch13_iterators_closures;
+
 fn main() {
-    println!("Hello world.");
+    ch13_iterators_closures::main::main();
 }
