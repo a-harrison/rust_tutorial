@@ -13,3 +13,5 @@ rust_tutorial.code-workspace
 /target
 **/*.rs.bk
 **/target
+
+*~
