@@ -1,4 +1,5 @@
-mod ch14_cargo_crates;
+mod ch15_smart_pointers;
 
 fn main() {
+    ch15_smart_pointers::main::main();
 }
