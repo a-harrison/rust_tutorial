@@ -1,4 +1,5 @@
 #![allow(unused_variables)]
+#![allow(dead_code)]
 
 enum List {
     Cons(i32, Rc<List>),
