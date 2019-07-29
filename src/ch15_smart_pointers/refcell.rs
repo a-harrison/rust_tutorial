@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 pub trait Messenger {
     fn send(&self, msg: &str);
 }
