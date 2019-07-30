@@ -1,8 +1,8 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-mod ch15_smart_pointers;
+mod ch16_concurrency;
 
 fn main() {
-    ch15_smart_pointers::tree::main();
+    ch16_concurrency::mutex::main();
 }
