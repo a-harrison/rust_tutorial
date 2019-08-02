@@ -1,8 +1,8 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-mod ch16_concurrency;
+mod ch17_oop;
 
 fn main() {
-    ch16_concurrency::mutex::main();
+    ch17_oop::traits::main();
 }
