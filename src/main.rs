@@ -4,5 +4,5 @@
 mod ch17_oop;
 
 fn main() {
-    ch17_oop::traits::main();
+    ch17_oop::blog::main();
 }
