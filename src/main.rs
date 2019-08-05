@@ -1,8 +1,8 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-mod ch17_oop;
+mod ch18_patterns_matching;
 
 fn main() {
-    ch17_oop::blog::main();
+    ch18_patterns_matching::patterns::main();
 }
